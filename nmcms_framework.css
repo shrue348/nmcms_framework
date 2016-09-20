@@ -34,19 +34,6 @@ body {
 .row-fluid [class*="span"]:first-child, .row-fluid.for-car [class*="span"]:first-child, .row-fluid .mgl0  {
     margin-left: 0;
 }
-.span20 { width: 17.93789743589745%; *width: 17.48908892525914%; display: inline-block; vertical-align: top;}
-.span12  {width: 100%; *width: 99.94680851063829%; display: inline-block; vertical-align: top; margin-left: 0;}
-.span11  {width: 91.48936170212765%;*width: 91.43617021276594%;display: inline-block;vertical-align: top;}
-.span10  {width: 82.97872340425532%;*width: 82.92553191489361%;display: inline-block;vertical-align: top;}
-.span9 {width: 74.46808510638297%;*width: 74.41489361702126%;display: inline-block;vertical-align: top;}
-.span8  {width: 65.95744680851064%;*width: 65.90425531914893%;display: inline-block;vertical-align: top;}
-.span7  {width: 57.44680851063829%;*width: 57.39361702127659%;display: inline-block;vertical-align: top;}
-.span6  {width: 48.93617021276595%;*width: 48.88297872340425%;display: inline-block;vertical-align: top;}
-.span5  {width: 40.42553191489362%;*width: 40.37234042553192%;display: inline-block;vertical-align: top;}
-.span4  {width: 31.914893617021278%;*width: 31.861702127659576%;display: inline-block;vertical-align: top;}
-.span3  {width: 23.404255319148934%;*width: 23.351063829787233%;display: inline-block;vertical-align: top;}
-.span2  {width: 14.893617021276595%;*width: 14.840425531914894%;display: inline-block;vertical-align: top;}
-.span1  {width: 6.382978723404255%;*width: 6.329787234042553%;display: inline-block;vertical-align: top;}
 
 .row-fluid .span20 { width: 17.93789743589745%; *width: 17.48908892525914%;}
 .row-fluid .span12 { width: 100%; *width: 9.994680851063829%; margin-left: 0;}
@@ -95,14 +82,8 @@ body {
 .table > .table-cell { vertical-align: top;}
 
 
-		/*-----NewMark Logo-------*/
-.create { width:120px; margin-left: 15px; }
-.create img { position: relative;}
-
-
-
-h1, .h1 { line-height: 1.2; font-family: 'Roboto Condensed', sans-serif;}
-h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 { line-height: 1.2; font-family: 'Roboto Condensed', sans-serif;}
+h1, .h1 { line-height: 1.2; font-family:  sans-serif;}
+h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 { line-height: 1.2; font-family: sans-serif;}
 
 h1, .h1 {font-size: 32px;}
 h2, .h2 {font-size: 23px;}
@@ -110,8 +91,8 @@ h3, .h3 {font-size: 20px;}
 h4, .h4 {font-size: 17px;}
 h5, .h5 {font-size: 16px;}
 h6, .h6 {font-size: 16px;}
-h1, h2, h3, .h1, .h2, .h3 {margin-bottom: 15px; }
-h4, h5, h6, .h4, .h5, .h6 {margin-bottom: 10px; }
+h1, h2, h3, .h1, .h2, .h3 {margin-bottom: 15px;}
+h4, h5, h6, .h4, .h5, .h6 {margin-bottom: 10px;}
 
 .font10 {font-size: 10px !important; }
 .font11 {font-size: 11px !important; }
@@ -149,10 +130,10 @@ a, button { color: #2C3E50; cursor: pointer;}
 :hover, :hover * { t-webkit-ransition: color 0.1s linear; -moz-transition: color 0.1s linear; -o-transition: color 0.1s linear; transition: color 0.1s linear;}
 
 hr {
-    border: none; /* ������� ������� ��� �������� Firefox */
-    color: #DEDEDE; /* ���� ����� ��� ��������� ��������� */
-    background-color: #DEDEDE; /* ���� ����� ��� �������� Firefox � Opera */
-    height: 1px; /* ������� ����� */
+    border: none; 
+    color: #DEDEDE;
+    background-color: #DEDEDE; 
+    height: 1px; 
     margin-bottom: 20px;
 }
 
@@ -216,13 +197,6 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 .form .rate { padding: 9px 0;}
 .form .rate:before, .form .rate:after { content: " "; display: table;}
 .form .rate:after { clear: both;}
-.form.nomodal h3, .form.nomodal .close { display: none;}
-
-.form .btn { display: inline-block;}
-.field1 { margin-bottom: 10px;}
-.field1 label, .form label { margin-bottom: 5px; display: block;}
-
-
 
 .btn { 
 	text-decoration: none; text-align: center; line-height: 1; cursor: pointer; box-sizing: border-box;
@@ -272,7 +246,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 .btn.btngrey:hover { background: #999;}
 
 .btn.disabled { background: none #d1d1d1; border-color: #d1d1d1; box-shadow: none; color: #6d6d6d;}
-.btn.btn_orange { border-color: #e15d0b;}
+
 
 .full_description  { font-size: 16px;}
 .full_description a { color: #225B9C;}
@@ -289,15 +263,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 .full_description table ul { margin-bottom: 0;}
  
 
-.field1 { margin-bottom: 10px;}
-
-.ptsans { font-family: 'PT Sans', sans-serif;}
 em, blockquote { padding: 17px 40px 5px; border: 1px solid #d2d5df; background-color: #eff1f7;  box-sizing: border-box; border-radius: 4px; display: block; position: relative;  font-weight: bold; margin-bottom: 20px; position: relative;}
 em:before, blockquote:before { position: absolute; z-index: 1; top: 10px; left: 10px; content: url(/img/em.png);}
 
 
-/*---------CSS-----------*/
-
-.right.table-cell { width: 240px; padding-left: 25px;}
-.left.table-cell { width: 240px; padding-right: 25px;}
 \ No newline at end of file
